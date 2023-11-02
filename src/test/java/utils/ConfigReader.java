@@ -23,6 +23,7 @@ public class ConfigReader {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
         return properties.getProperty(key);
 
     }
