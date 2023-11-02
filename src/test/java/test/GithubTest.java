@@ -37,6 +37,7 @@ public class GithubTest{
         }
 
         List<WebElement> deleteButtonCount=driver.findElements(By.xpath("//button[@onclick='deleteElement()']"));
+
         Assert.assertEquals(deleteButtonCount.size(),count);
 
     }
